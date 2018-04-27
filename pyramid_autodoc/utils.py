@@ -205,6 +205,8 @@ def get_route_data(route, registry):
                     view_module, view_docs = _get_view_module(view_callable)
                     view_source = _get_view_source(view_callable)
                 else:
+                    if 'callable' not in view:
+                        continue
                     view_callable = view['callable']
 
                     view_module, view_docs = _get_view_module(view_callable)
