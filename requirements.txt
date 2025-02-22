@@ -1,4 +1,4 @@
-pyramid
-montague
-sphinx
-sphinxcontrib-httpdomain
+pyramid==1.10.8
+montague==0.2.1
+Sphinx==1.8.5
+sphinxcontrib-httpdomain==1.8.1
